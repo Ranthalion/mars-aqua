@@ -920,17 +920,6 @@ Connection ~ 7350 4400
 Wire Wire Line
 	7350 4400 7350 4900
 $Comp
-L Reference_Voltage:TL431DBZ D1
-U 1 1 5D055AD5
-P 5050 1350
-F 0 "D1" V 5096 1280 50  0000 R CNN
-F 1 "TL431DBZ" V 5005 1280 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 1200 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 5050 1350 50  0001 C CIN
-	1    5050 1350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_US R27
 U 1 1 5D0693E7
 P 4650 1500
@@ -1222,4 +1211,15 @@ Wire Wire Line
 	5600 1450 5600 1650
 Wire Wire Line
 	5600 1650 5050 1650
+$Comp
+L Reference_Voltage:TL432DBZ D1
+U 1 1 5D1EF6F2
+P 5050 1350
+F 0 "D1" V 5096 1280 50  0000 R CNN
+F 1 "TL432DBZ" V 5005 1280 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 1200 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 5050 1350 50  0001 C CIN
+	1    5050 1350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
