@@ -1,4 +1,4 @@
-update=3/6/2019 11:03:07 PM
+update=4/1/2020 8:07:39 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=schematic
+PlotDirectoryName=./mars-aqua-adapter
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
